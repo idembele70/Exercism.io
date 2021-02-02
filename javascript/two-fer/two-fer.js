@@ -3,6 +3,9 @@
 // convenience to get you started writing code faster.
 //
 
-export const twoFer = () => {
-  throw new Error('Remove this statement and implement this function');
-};
+
+function Twofer(yourName) {
+  return `one for ${yourName}, one for me.`;
+}
+
+console.log(Twofer("baby"));
