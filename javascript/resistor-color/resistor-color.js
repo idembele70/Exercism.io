@@ -3,7 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-function ResistorColor(number) {
+function ResistorColor(number="2") {
   switch (number) {
     case '0':
       return 'Black';
@@ -43,5 +43,5 @@ function ResistorColor(number) {
   }
 }
 
-console.log(ResistorColor('9'));
+ResistorColor();
 
