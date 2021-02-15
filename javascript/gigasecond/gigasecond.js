@@ -3,6 +3,15 @@
 // convenience to get you started writing code faster.
 //
 
-export const gigasecond = () => {
-  throw new Error('Remove this statement and implement this function');
-};
+function gigasecond() {
+  const max = Math.pow(10,9);
+   return setInterval(()=>{
+return 'ok' ;
+   },7000);
+ };
+ 
+ function SecondCompteur() {
+   return 'ok';
+ }
+ 
+ console.log(gigasecond());
